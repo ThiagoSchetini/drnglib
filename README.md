@@ -7,7 +7,7 @@ implemented by a small native library embedded as a resource in the .jar file.
 
 The **DigitalRandom** class is provided as a drop-in replacement for
 [SecureRandom](http://docs.oracle.com/javase/7/docs/api/java/security/SecureRandom.html). It is thread-safe and
-stateless. All thread synchronization occurs in the hardware implementation of `rdrand`.
+stateless. All thread synchronization occurs in the hardware implementation of `rdrand` (read Intel docs)
 
 For more information see:
 * [Wikipedia: RdRand](http://en.wikipedia.org/wiki/RdRand)
